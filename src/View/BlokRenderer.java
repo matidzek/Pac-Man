@@ -78,13 +78,6 @@ public class BlokRenderer extends JPanel implements TableCellRenderer, AnimacjaP
     }
 }
 
-//        }else if(this.value >= 7) {//extra health NIE DZIALA
-//            Graphics2D g2d = (Graphics2D) g;
-//            int size = getWidth() < getHeight() ? getWidth() : getHeight();
-//            g2d.setColor(Color.RED);
-//            g2d.fillRect((getWidth() - size)/2,(getHeight() - size)/2, size, size);
-//            g2d.rotate(Math.toRadians(45));
-//        }
 
 
 

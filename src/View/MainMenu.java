@@ -55,8 +55,8 @@ public class MainMenu extends JFrame implements ActionListener {
         inpanel.add(exitButton, BorderLayout.LINE_END);
 
         this.add(panel);
-        this.setLocationRelativeTo(null);
         this.setSize(600, 400);
+        this.setLocationRelativeTo(null);
         this.setVisible(true);
     }
 

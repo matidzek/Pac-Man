@@ -2,7 +2,6 @@ package View;
 
 import Controller.Controller;
 import Model.MapModel;
-import Model.ZapisOdczytWyniku;
 
 import javax.swing.*;
 import java.awt.*;

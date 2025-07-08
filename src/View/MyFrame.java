@@ -6,7 +6,6 @@ import Events.KoniecGryListener;
 import Events.PauzaEvent;
 import Events.PauzaListener;
 import Model.MapModel;
-import Model.ZapisOdczytWyniku;
 
 import javax.swing.*;
 import java.awt.*;

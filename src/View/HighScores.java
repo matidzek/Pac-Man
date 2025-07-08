@@ -40,13 +40,12 @@ public class HighScores extends JFrame implements WynikiOdczytaneListener {
         panel.setLayout(new BorderLayout());
 
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.setSize(600, 600);
 
         JScrollPane scrollPane = new JScrollPane(highScoresTextArea);
         panel.add(scrollPane, BorderLayout.CENTER);
         this.add(panel);
-        this.setLocationRelativeTo(null);
         this.setSize(600, 600);
+        this.setLocationRelativeTo(null);
         this.setVisible(true);
 
     }

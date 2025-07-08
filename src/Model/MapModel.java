@@ -12,7 +12,6 @@ public class MapModel implements SterowanieListener, PauzaListener{
         GORA, DOL, LEWO, PRAWO
     }
     private final List<List<Integer>> data;
-//    private final int powerup = 5; //będę losowal z między 5 powerupów //nie dzialalo
     private int pacmanx = 1;
     private int pacmany = 1;
     private boolean isRunning = true;
@@ -268,14 +267,6 @@ public class MapModel implements SterowanieListener, PauzaListener{
                                 proby++;
                             } while (getValueAt(newx, newy) != 0 && getValueAt(newx, newy) != -1 && proby < 30);
                         }
-                        //Próbowalem dodać powerupy przez dlugie godziny, ale nie bylem w stanie tego naprawić
-//                        if (czasGry >= 5 && czasGry % 5 == 0 && (int) (Math.random() *5) == 0) {
-//                            if (getValueAt(oldx, oldy) == 0) {
-//                                data.get(oldx).set(oldy, (powerup % ((int) (Math.random() * 5)))+10);
-//                            }
-//                        } else {
-//                            data.get(oldx).set(oldy, getValueAt(newx, newy));
-//                        }
                         data.get(oldx).set(oldy, getValueAt(newx, newy));
                         data.get(x).set(y, numerDucha);
                         fireZmianaDanych(oldx, oldy);
